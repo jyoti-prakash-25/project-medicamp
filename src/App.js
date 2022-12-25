@@ -1,10 +1,15 @@
 import "./App.css";
+import HeroSection from "./component/HeroSection/HeroSection";
+import Slider from "./component/Reviews/Slider";
+import Surgery from "./component/Surgery/Surgery";
 
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <div className="App">
+      <HeroSection />
+      <Surgery />
+      <Slider />
+    </div>
   );
 }
 
